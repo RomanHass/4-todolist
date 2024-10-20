@@ -1,0 +1,30 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.error {
+  border: 1px solid red;
+  outline: transparent;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter-btn {
+  background-color: chocolate;
+}
+
+.is-done {
+  opacity: 0.5;
+}
